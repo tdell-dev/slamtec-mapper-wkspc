@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>LaserScan - SLAMWARE C++ SDK</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "LaserScan";
+    var mkdocs_page_input_path = "laser_scan.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cpp.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/makefile.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> SLAMWARE C++ SDK</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="http://developer.slamtec.com/docs/slamware/cpp-sdk-en/2.6.0_rtm/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../location/index.html">Location</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../rotation/index.html">Rotation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pose/index.html">Pose</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../action/index.html">Action</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../action_status/index.html">ActionStatus</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../feature/index.html">Feature</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../rectangleF/index.html">RectangleF</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../vector2f/index.html">Vector2f</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../vector2i/index.html">Vector2i</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../laserPoint/index.html">LaserPoint</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../RobotPlatform/index.html">RobotPlatform</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveAction/index.html">MoveAction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="http://developer.slamtec.com/docs/slamware/cpp-sdk-en/2.6.0_rtm/VelocityControlMoveAction.md">VelocityControlMoveAction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveOptionFlag/index.html">MoveOptionFlag</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveOptions/index.html">MoveOptions</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../artifact_provider/index.html">ArtifactProvider</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../location_provider/index.html">LocationProvider</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../motion_planner/index.html">MotionPlanner</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../system_resource/index.html">SystemResource</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../map/index.html">Map</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../map_type/index.html">MapTyoe</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../bitmap_map/index.html">BitmapMap</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../bitmap_map_pixel_format/index.html">BitmapMapPixelFormat</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../path/index.html">Path</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="index.html">LaserScan</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="index.html#rposfeaturessystem_resourcelaserscan-class">rpos::features::system_resource::LaserScan Class</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="index.html#header-file">Header File</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#applies-to">Applies to</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#constructors">Constructors</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#operators">Operators</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#methods">Methods</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../slamware_core_platform/index.html">SlamwareCorePlatform</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">SLAMWARE C++ SDK</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>LaserScan</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="rposfeaturessystem_resourcelaserscan-class">rpos::features::system_resource::LaserScan Class</h2>
+<p>LaserScan is the collection of a series of LaserPoint objects that represents a scan iteration of an LIDAR sensor.</p>
+<h3 id="header-file">Header File</h3>
+<p>rpos/features/system_resource.h</p>
+<h3 id="applies-to">Applies to</h3>
+<ul>
+<li>Slamware</li>
+<li>Mapper</li>
+</ul>
+<h3 id="constructors">Constructors</h3>
+<pre><code class="cpp">LaserScan(const std::vector&lt;rpos::core::LaserPoint&gt;&amp;)
+</code></pre>
+
+<p>Construct a new Object based on a set of <code>rpos::core::LaserPoint</code></p>
+<pre><code class="cpp">LaserScan(const LaserScan&amp;)
+</code></pre>
+
+<p>Copy contructors.</p>
+<h3 id="operators">Operators</h3>
+<pre><code class="cpp">LaserScan&amp; operator=(const LaserScan&amp;)
+</code></pre>
+
+<p>Assignment operator</p>
+<h3 id="methods">Methods</h3>
+<pre><code class="cpp">const std::vector&lt;core::LaserPoint&gt;&amp; getLaserPoints() const
+</code></pre>
+
+<p>Retrieves the LaserPoint data collection</p>
+<pre><code class="cpp">void setLaserPoints(const std::vector&lt;core::LaserPoint&gt;&amp; data, rpos::system::types::_u64 timestamp)
+</code></pre>
+
+<p>Set the scan points data to the object</p>
+<table>
+<thead>
+<tr>
+<th>Paramer Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td><code>const std::vector&lt;core::LaserPoint&gt;&amp;</code></td>
+<td>The LaserPoint collection data to be set</td>
+</tr>
+<tr>
+<td>timestamp</td>
+<td><code>rpos::system::types::_u64</code></td>
+<td>Timestamp of the laser scan</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void setLaserPointsPose(const rpos::core::Pose&amp; pose)
+</code></pre>
+
+<p>Set the centor pose of the current laser scan. </p>
+<pre><code class="cpp">const rpos::core::Pose&amp; getLaserPointsPose() const
+</code></pre>
+
+<p>Retrieve the centor pose of the current laser scan. </p>
+<pre><code class="cpp">void setHasPose(bool hasPose)
+</code></pre>
+
+<p>Set wheter the current scan object contains valid pose data.</p>
+<pre><code class="cpp">bool getHasPose() const
+</code></pre>
+
+<p>Returns wheter the current scan object contains valid pose data.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../slamware_core_platform/index.html" class="btn btn-neutral float-right" title="SlamwareCorePlatform">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../path/index.html" class="btn btn-neutral" title="Path"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../path/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../slamware_core_platform/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

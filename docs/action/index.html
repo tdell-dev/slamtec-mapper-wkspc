@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Action - SLAMWARE C++ SDK</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Action";
+    var mkdocs_page_input_path = "action.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cpp.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/makefile.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> SLAMWARE C++ SDK</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="http://developer.slamtec.com/docs/slamware/cpp-sdk-en/2.6.0_rtm/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../location/index.html">Location</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../rotation/index.html">Rotation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pose/index.html">Pose</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="index.html">Action</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="index.html#rposcoreaction-class">rpos::core::Action Class</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="index.html#header-file">Header File</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#applies-to">Applies to</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#methods">Methods</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../action_status/index.html">ActionStatus</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../feature/index.html">Feature</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../rectangleF/index.html">RectangleF</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../vector2f/index.html">Vector2f</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../vector2i/index.html">Vector2i</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../laserPoint/index.html">LaserPoint</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../RobotPlatform/index.html">RobotPlatform</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveAction/index.html">MoveAction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="http://developer.slamtec.com/docs/slamware/cpp-sdk-en/2.6.0_rtm/VelocityControlMoveAction.md">VelocityControlMoveAction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveOptionFlag/index.html">MoveOptionFlag</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveOptions/index.html">MoveOptions</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../artifact_provider/index.html">ArtifactProvider</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../location_provider/index.html">LocationProvider</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../motion_planner/index.html">MotionPlanner</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../system_resource/index.html">SystemResource</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../map/index.html">Map</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../map_type/index.html">MapTyoe</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../bitmap_map/index.html">BitmapMap</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../bitmap_map_pixel_format/index.html">BitmapMapPixelFormat</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../path/index.html">Path</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../laser_scan/index.html">LaserScan</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../slamware_core_platform/index.html">SlamwareCorePlatform</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">SLAMWARE C++ SDK</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Action</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="rposcoreaction-class">rpos::core::Action Class</h2>
+<h3 id="header-file">Header File</h3>
+<blockquote>
+<p>rpos/core/action.h</p>
+</blockquote>
+<h3 id="applies-to">Applies to</h3>
+<ul>
+<li>Slamware</li>
+</ul>
+<h3 id="methods">Methods</h3>
+<pre><code class="cpp">ActionStatus getStatus()     
+</code></pre>
+
+<p>Get the current action working status. Refer to ActionStatus for details.</p>
+<pre><code class="cpp">void cancel()
+</code></pre>
+
+<p>Cancel the action to let it stop working</p>
+<pre><code class="cpp">ActionStatus waitUntilDone()   
+</code></pre>
+
+<p>Wait the action to stop (ether finish working, been cancelled or stopped by some error). Returns the action execution result via the ActionStatus Enum.</p>
+<pre><code class="cpp">bool isEmpty()
+</code></pre>
+
+<p>Check whether the current Action is an empty action. If the current action is empty, it means the SLAMWARE system is in idle state.</p>
+<pre><code class="cpp">rpos::core::ActionID getActionId()
+</code></pre>
+
+<p>Retrieves the ActionID of the action.</p>
+<pre><code class="cpp">std::string Action::getReason()
+</code></pre>
+
+<p>Retrieves the detailed error description text message once the Action::getStatus() method returns ActionStatusError.</p>
+<table>
+<thead>
+<tr>
+<th>Reason Text</th>
+<th>Available Actions</th>
+<th>Descriptions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>"failed"</code></td>
+<td>all actions</td>
+<td>the action just fails</td>
+</tr>
+<tr>
+<td><code>"aborted"</code></td>
+<td>all actions</td>
+<td>the action has been aborted (been cancelled or aborted by a new action )</td>
+</tr>
+<tr>
+<td><code>"unreachable"</code></td>
+<td>actions returned by moveTo()</td>
+<td>there is no valid path to the destination point</td>
+</tr>
+<tr>
+<td><code>"blocked[X]"</code><br/>e.g. <code>"blocked[lidar;contact]"</code></td>
+<td>actions returned by moveTo() with MoveOptionFlagKeyPoints set</td>
+<td>action failed due to there exists obstacles in front of the robot when following virtual tracks.<br/>  <br/> The X can be any combination of the following items:<br/>"lidar" : obstacle is detected by LIDAR(s) <br/>"wall" : obstacle is a virtual wall <br/> "contact" : obstacle is detected by bump sensors <br/> "depth_camera" : obstacle is detected by depth camera(s) <br/> "sonar" : obstacle is detected by ultrasonic sensor(s).<br/><br/> If more than one above items should be included in the X, a semi-colons (;) symbol is used to join these items.</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">template&lt;class ActionT&gt; ActionT cast()
+</code></pre>
+
+<p>cast a <code>rpos::core::Action</code> to its child class object</p>
+<p><em>Example</em></p>
+<pre><code class="cpp">rpos::core::Action someAction = robotPlatform.startSomeAction();
+rpos::actions::MoveAction moveAction = someAction.cast&lt;rpos::actions::MoveAction&gt;();
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../action_status/index.html" class="btn btn-neutral float-right" title="ActionStatus">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../pose/index.html" class="btn btn-neutral" title="Pose"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../pose/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../action_status/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

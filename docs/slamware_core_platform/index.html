@@ -1,0 +1,2798 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>SlamwareCorePlatform - SLAMWARE C++ SDK</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "SlamwareCorePlatform";
+    var mkdocs_page_input_path = "slamware_core_platform.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cpp.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/makefile.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> SLAMWARE C++ SDK</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="http://developer.slamtec.com/docs/slamware/cpp-sdk-en/2.6.0_rtm/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../location/index.html">Location</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../rotation/index.html">Rotation</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../pose/index.html">Pose</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../action/index.html">Action</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../action_status/index.html">ActionStatus</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../feature/index.html">Feature</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../rectangleF/index.html">RectangleF</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../vector2f/index.html">Vector2f</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../vector2i/index.html">Vector2i</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../laserPoint/index.html">LaserPoint</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../RobotPlatform/index.html">RobotPlatform</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveAction/index.html">MoveAction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="http://developer.slamtec.com/docs/slamware/cpp-sdk-en/2.6.0_rtm/VelocityControlMoveAction.md">VelocityControlMoveAction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveOptionFlag/index.html">MoveOptionFlag</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveOptions/index.html">MoveOptions</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../artifact_provider/index.html">ArtifactProvider</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../location_provider/index.html">LocationProvider</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../motion_planner/index.html">MotionPlanner</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../system_resource/index.html">SystemResource</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../map/index.html">Map</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../map_type/index.html">MapTyoe</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../bitmap_map/index.html">BitmapMap</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../bitmap_map_pixel_format/index.html">BitmapMapPixelFormat</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../path/index.html">Path</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../laser_scan/index.html">LaserScan</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="index.html">SlamwareCorePlatform</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="index.html#rposrobot_platformsslamwarecoreplatform-class">rpos::robot_platforms::SlamwareCorePlatform Class</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="index.html#header-file">Header File</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#applies-to">Applies to</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#base-class">Base Class</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#constructors">Constructors</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#operators">Operators</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#static-methods">Static Methods</a></li>
+        
+            <li><a class="toctree-l3" href="index.html#methods">Methods</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">SLAMWARE C++ SDK</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>SlamwareCorePlatform</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="rposrobot_platformsslamwarecoreplatform-class">rpos::robot_platforms::SlamwareCorePlatform Class</h2>
+<p>SlamwareCorePlatform denotes a connection to a Slamware-based robot, which can be used to fetch status from the robot and control the robot.</p>
+<h3 id="header-file">Header File</h3>
+<p>rpos/robot_platforms/slamware_core_platform.h</p>
+<h3 id="applies-to">Applies to</h3>
+<ul>
+<li>Slamware</li>
+<li>Mapper (partial)</li>
+</ul>
+<h3 id="base-class">Base Class</h3>
+<p>Derived from <code>rpos::core::RobotPlatform</code></p>
+<h3 id="constructors">Constructors</h3>
+<pre><code class="cpp">SlamwareCorePlatform(boost::shared_ptr&lt;detail::SlamwareCorePlatformImpl&gt; impl);
+</code></pre>
+
+<p>Used only by SDK itself</p>
+<pre><code class="cpp">SlamwareCorePlatform(const SlamwareCorePlatform&amp;);
+</code></pre>
+
+<p>Copy constructor</p>
+<h3 id="operators">Operators</h3>
+<pre><code class="cpp">SlamwareCorePlatform&amp; operator=(const SlamwareCorePlatform&amp;);
+</code></pre>
+
+<p>Assignment operator</p>
+<h3 id="static-methods">Static Methods</h3>
+<pre><code class="cpp">static SlamwareCorePlatform connect(
+    const std::string&amp; host,
+    int port,
+    int timeoutInMs = 10000
+) throw(ConnectionTimeOutException, ConnectionFailException);
+</code></pre>
+
+<p>Connect to specific robot</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>host</td>
+<td><code>const std::string&amp;</code></td>
+<td>IP address to Slamware-based robot</td>
+</tr>
+<tr>
+<td>port</td>
+<td><code>int</code></td>
+<td>Port to Slamware-based robot</td>
+</tr>
+<tr>
+<td>timeoutInMs</td>
+<td><code>int</code></td>
+<td>Connection timeout (in ms)</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>SlamwareCorePlatform</code></td>
+<td>Returns <code>SlamwareCorePlatform</code> object on success</td>
+</tr>
+</tbody>
+</table>
+<h3 id="methods">Methods</h3>
+<pre><code class="cpp">void disconnect();
+</code></pre>
+
+<p>Disconnect from the robot</p>
+<h4 id="artifacts-related-methods-only-applies-to-slamware">Artifacts-related Methods (only applies to Slamware)</h4>
+<pre><code class="cpp">std::vector&lt;core::Line&gt; getLines(features::artifact_provider::ArtifactUsage usage);
+</code></pre>
+
+<p>Retrieves all the virtual walls and virtual tracks stored in the current SLAMWARE system.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usage</td>
+<td><code>features::artifact_provider::ArtifactUsage</code></td>
+<td>Specifies the type of artifacts</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>std::vector&lt;core::Line&gt;</code></td>
+<td>Fetched lines</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool addLine(features::artifact_provider::ArtifactUsage usage, const core::Line&amp; line);
+</code></pre>
+
+<p>Add on virtual track or virtual wall object.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usage</td>
+<td><code>features::artifact_provider::ArtifactUsage</code></td>
+<td>Specifies the type of artifacts</td>
+</tr>
+<tr>
+<td>line</td>
+<td><code>const core::Line&amp;</code></td>
+<td>The line to add</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool addLines(features::artifact_provider::ArtifactUsage usage, const std::vector&lt;core::Line&gt;&amp; lines);
+</code></pre>
+
+<p>Add one or more virtual track or virtual wall objects in batch.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usage</td>
+<td><code>features::artifact_provider::ArtifactUsage</code></td>
+<td>Specifies the type of artifacts</td>
+</tr>
+<tr>
+<td>lines</td>
+<td><code>const std::vector&lt;core::Line&gt;&amp;</code></td>
+<td>Lines to add</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td>bool</td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool removeLineById(features::artifact_provider::ArtifactUsage usage, rpos::core::SegmentID id)
+</code></pre>
+
+<p>Remove specified virtual wall or virtual track based on the object id.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usage</td>
+<td><code>features::artifact_provider::ArtifactUsage</code></td>
+<td>Specifies the type of artifacts</td>
+</tr>
+<tr>
+<td>id</td>
+<td><code>rpos::core::SegmentID</code></td>
+<td>ID to the line to remove</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful removal, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool clearLines(features::artifact_provider::ArtifactUsage usage)
+</code></pre>
+
+<p>Clear all virtual walls or virtual tracks specified by the usage parameter.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usage</td>
+<td><code>features::artifact_provider::ArtifactUsage</code></td>
+<td>Specifies the type of artifacts to remove</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful removal, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool moveLine(features::artifact_provider::ArtifactUsage usage, const core::Line&amp; line);
+</code></pre>
+
+<p>Set artifact object (virtual wall or virtual track) specified by the line object with the same id to a new position. </p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usage</td>
+<td><code>features::artifact_provider::ArtifactUsage</code></td>
+<td>Specifies the type of artifacts to move</td>
+</tr>
+<tr>
+<td>line</td>
+<td><code>const core::Line&amp;</code></td>
+<td>The line to move</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful movement, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool moveLines(features::artifact_provider::ArtifactUsage usage, const std::vector&lt;core::Line&gt;&amp; lines);
+</code></pre>
+
+<p>Set multiple artifact objects (virtual walls or virtual tracks) specified by the line objects with the same ids to new positions.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usage</td>
+<td><code>features::artifact_provider::ArtifactUsage</code></td>
+<td>Specifies the type of artifacts to move</td>
+</tr>
+<tr>
+<td>lines</td>
+<td><code>const std::vector&lt;core::Line&gt;&amp;</code></td>
+<td>Lines to move</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful movement, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">std::vector&lt;core::Line&gt; getWalls();
+</code></pre>
+
+<p>Get all virtual wall objects stored in the SLAMWARE system.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>std::vector&lt;core::Line&gt;</code></td>
+<td>Fetched virtual walls</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool addWall(const core::Line&amp; wall);
+</code></pre>
+
+<p>Add one virtual wall line.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wall</td>
+<td><code>const core::Line&amp;</code></td>
+<td>Virtual wall to add</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool addWalls(const std::vector&lt;core::Line&gt;&amp; walls);
+</code></pre>
+
+<p>Add one or more virtual walls.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>walls</td>
+<td><code>const std::vector&lt;core::Line&gt;&amp;</code></td>
+<td>Virtual walls to add</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool clearWallById(const core::SegmentID&amp; id);
+</code></pre>
+
+<p>Remove the virtual wall object specified by the id.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><code>const core::SegmentID</code></td>
+<td>ID to the virtual wall to remove</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful removal, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool clearWalls();
+</code></pre>
+
+<p>Clear all virtual wall objects.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful removal, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="localization-related-methods">Localization-related Methods</h4>
+<pre><code class="cpp">std::vector&lt;features::location_provider::MapType&gt; getAvailableMaps();
+</code></pre>
+
+<p>Get all available map types.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>std::vector&lt;features::location_provider::MapType&gt;</code></td>
+<td>支持的地图类型</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::location_provider::Map getMap(features::location_provider::MapType type, core::RectangleF area, features::location_provider::MapKind kind);
+</code></pre>
+
+<p>Get the map data object with the specified map kind and areas.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td><code>features::location_provider::MapType</code></td>
+<td>The type of the map to fetch</td>
+</tr>
+<tr>
+<td>area</td>
+<td><code>core::RectangleF</code></td>
+<td>The area of the map to fetch</td>
+</tr>
+<tr>
+<td>kind</td>
+<td><code>features::location_provider::MapKind</code></td>
+<td>The kind of the map to fetch</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>features::location_provider::Map</code></td>
+<td>The map object</td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">rpos::feature::location_provider::MapType mapType = rpos::feature::location_provider::MapType::MapTypeBitmap8Bit;
+rpos::feature::location_provider::Mapkind mapKind = rpos::feature::location_provider::MapKind::EXPLORERMAP;
+rpos::core::Rectangle knownArea = robotPlatform.getKnownArea(mapType, mapKind);
+rpos::feature::location_provider::Map map = robotPlatform.getMap(mapType, knownArea, mapKind);
+</code></pre>
+
+<pre><code class="cpp">bool setMap(const features::location_provider::Map&amp; map, features::location_provider::MapType type, features::location_provider::MapKind kind, bool partially = false);
+</code></pre>
+
+<p>Upload map data to the SLAMWARE system based on the map kind.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>map</td>
+<td><code>const features::location_provider::Map&amp;</code></td>
+<td>The map data</td>
+</tr>
+<tr>
+<td>type</td>
+<td><code>features::location_provider::MapType</code></td>
+<td>The type of the map</td>
+</tr>
+<tr>
+<td>kind</td>
+<td><code>features::location_provider::MapKind</code></td>
+<td>The kind of the map</td>
+</tr>
+<tr>
+<td>partially</td>
+<td><code>bool</code></td>
+<td>Partially update or replace the whole map</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful upload, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">rpos::feature::location_provider::MapType mapType = rpos::feature::location_provider::MapType::MapTypeBitmap8Bit;
+rpos::feature::location_provider::Mapkind mapKind = rpos::feature::location_provider::MapKind::EXPLORERMAP;
+rpos::core::Rectangle knownArea = robotPlatform.getKnownArea(mapType, mapKind);
+rpos::feature::location_provider::Map map = robotPlatform.getMap(mapType, knownArea, mapKind);
+bool bRet = robotPlatform.setMap(map, mapType, mapKind);
+</code></pre>
+
+<pre><code class="cpp">bool setMapAndPose(const core::Pose&amp; pose, const features::location_provider::Map&amp; map, features::location_provider::MapType type, features::location_provider::MapKind kind, bool partially = false);
+</code></pre>
+
+<p>Upload map data along with the robot pose to the SLAMWARE system based on the map kind.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pose</td>
+<td><code>const core::Pose&amp;</code></td>
+<td>The robot pose</td>
+</tr>
+<tr>
+<td>map</td>
+<td><code>const features::location_provider::Map&amp;</code></td>
+<td>The map data</td>
+</tr>
+<tr>
+<td>type</td>
+<td><code>features::location_provider::MapType</code></td>
+<td>The type of the map</td>
+</tr>
+<tr>
+<td>kind</td>
+<td><code>features::location_provider::MapKind</code></td>
+<td>The kind of the map</td>
+</tr>
+<tr>
+<td>partially</td>
+<td><code>bool</code></td>
+<td>Partially update or replace the whole map</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful upload, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">rpos::core::Pose pose;
+rpos::feature::location_provider::MapType mapType = rpos::feature::location_provider::MapType::MapTypeBitmap8Bit;
+rpos::feature::location_provider::Mapkind mapKind = rpos::feature::location_provider::MapKind::EXPLORERMAP;
+rpos::core::Rectangle knownArea = robotPlatform.getKnownArea(mapType, mapKind);
+rpos::feature::location_provider::Map map = robotPlatform.getMap(mapType, knownArea, mapKind);
+bool bRet = robotPlatform.setMapAndPose(pose, map, mapType, mapKind);
+</code></pre>
+
+<pre><code class="cpp">core::RectangleF getKnownArea(features::location_provider::MapType type, features::location_provider::MapKind kind);
+</code></pre>
+
+<p>Retrieve the explored(mapped) area of the current map. </p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td><code>features::location_provider::MapType</code></td>
+<td>The type of the map</td>
+</tr>
+<tr>
+<td>kind</td>
+<td><code>features::location_provider::MapKind</code></td>
+<td>The kind of the map</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>core::RectangleF</code></td>
+<td>Explored area of the map</td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">rpos::feature::location_provider::MapType mapType = rpos::feature::location_provider::MapType::MapTypeBitmap8Bit;
+rpos::feature::location_provider::Mapkind mapKind = rpos::feature::location_provider::MapKind::EXPLORERMAP;
+rpos::core::RectangleF knownArea = robotPlatform.getKnownArea(mapType, mapKind);
+</code></pre>
+
+<pre><code class="cpp">bool clearMap();
+</code></pre>
+
+<p>Clear all map data inside the SLAMWARE system.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool clearMap(features::location_provider::MapKind kind);
+</code></pre>
+
+<p>Clear the specified map data inside the SLAMWARE system.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kind</td>
+<td><code>features::location_provider::MapKind</code></td>
+<td>The kind of the map</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">core::Location getLocation();
+</code></pre>
+
+<p>Get the robot location calcuated by the SLAMWARE System.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>core::Location</code></td>
+<td>The location of the robot in current map</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">core::Pose getPose();
+</code></pre>
+
+<p>Get the robot pose calcuated by the SLAMWARE System.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>core::Pose</code></td>
+<td>The pose of the robot in current map</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool setPose(const core::Pose&amp; pose);
+</code></pre>
+
+<p>Upload and set the robot pose to the SLAMWARE System.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pose</td>
+<td><code>const core::Pose&amp;</code></td>
+<td>The pose to set for the robot</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool getMapLocalization();
+</code></pre>
+
+<p>Check whether the localization system is enabled in the SLAMWARE system. <br/>
+Deadreck data will be used once localization system is disabled.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for localization system is enabled, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool setMapLocalization(bool localization);
+</code></pre>
+
+<p>Set the SLAMWARE system to enable or disable the localization system.<br/>
+Deadreck data will be used once localization system is disabled.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>localization</td>
+<td><code>bool</code></td>
+<td>Enable or disable localization system</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool getMapUpdate(rpos::features::location_provider::MapKind kind = rpos::features::location_provider::EXPLORERMAP);
+</code></pre>
+
+<p>Check wehther SLAMWARE system will perform map update to the specified map kind.<br/>
+SLAMWARE system enters localization enhanced mode once map update is disabled.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kind</td>
+<td><code>rpos::features::location_provider::MapKind</code></td>
+<td>The kind of the map</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for map update is enabled, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool setMapUpdate(bool update, rpos::features::location_provider::MapKind kind = rpos::features::location_provider::EXPLORERMAP);
+</code></pre>
+
+<p>Set whether SLAMWARE system will perform map update to the specified map kind. <br/>
+SLAMWARE system enters localization enhanced mode once map update is disabled.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>update</td>
+<td><code>bool</code></td>
+<td>Enable or disable map update</td>
+</tr>
+<tr>
+<td>kind</td>
+<td><code>rpos::features::location_provider::MapKind</code></td>
+<td>The kind of the map</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">int getLocalizationQuality();
+</code></pre>
+
+<p>Get the localization quality indication value of the current pose.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>int</code></td>
+<td>Localization quality indicator</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::location_provider::PointPDF getAuxLocation();
+</code></pre>
+
+<p>Get the Aux localization data (require external module support)</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>features::location_provider::PointPDF</code></td>
+<td>Location detected via aux localization provider</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool getHomePose(core::Pose&amp; pose);
+</code></pre>
+
+<p>Get the charging base (dock) pose base on the current explorer map.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pose</td>
+<td><code>core::Pose&amp;</code></td>
+<td>The pose of the charging base</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful and has a registered charging base, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool setHomePose(core::Pose pose);
+</code></pre>
+
+<p>Set the charging base (dock) pose base on the current explorer map.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pose</td>
+<td><code>core::Pose</code></td>
+<td>The pose of the charging base to set</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::location_provider::AuxLocalizationStatus getAuxLocalizationStatus(features::location_provider::AuxLocalizationSource source);
+</code></pre>
+
+<p>Get the Aux localization beacon status (require external module support)</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td><code>features::location_provider::AuxLocalizationSource</code></td>
+<td>The source of aux location provider</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>features::location_provider::AuxLocalizationStatus</code></td>
+<td>Status of the specified location provider</td>
+</tr>
+</tbody>
+</table>
+<h4 id="motion-planning-methods-only-applies-to-slamware">Motion Planning Methods (only applies to Slamware)</h4>
+<pre><code class="cpp">actions::MoveAction moveTo(
+    const std::vector&lt;core::Location&gt;&amp; locations,
+    bool appending,
+    bool isMilestone
+);
+</code></pre>
+
+<p>Requires the robot to move to a set of key points (milestone) specified by the parameters. </p>
+<p>The robot will try its best to reach each points specified. In case of obstacles occurs, the robot will avoid hitting them by planning a valid  path.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>locations</td>
+<td><code>const std::vector&lt;core::Location&gt;&amp;</code></td>
+<td>Points collection that the robot should reach</td>
+</tr>
+<tr>
+<td>appending</td>
+<td><code>bool</code></td>
+<td>Once set to true, a current working action (if any) won't get aborted and the key points specified by the function will be pending to the task queue.</td>
+</tr>
+<tr>
+<td>isMilestone</td>
+<td><code>bool</code></td>
+<td><em>deprecated</em> Once set to true, the points inside the <code>locations</code> are considered as key points. The robot will always try to plan a vaild path to reach the points. <br/>Once set to false, the robot won't replan path once obstacle occurs.</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction moveTo(
+    const core::Location&amp; location,
+    bool appending,
+    bool isMilestone
+);
+</code></pre>
+
+<p>Requires the robot to move to a key point (milestone) specified by the parameters.</p>
+<p>The robot will try its best to reach the point specified. In case of obstacles occurs, the robot will avoid hitting them by planning a valid path.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>location</td>
+<td><code>const core::Location&amp;</code></td>
+<td>Point that the robot should reach</td>
+</tr>
+<tr>
+<td>appending</td>
+<td><code>bool</code></td>
+<td>nce set to true, a current working action (if any) won't get aborted and the key points specified by the function will be pending to the task queue.</td>
+</tr>
+<tr>
+<td>isMilestone</td>
+<td><code>bool</code></td>
+<td><em>deprecated</em> Once set to true, the point of the <code>location</code> is considered as a key point. The robot will always try to plan a vaild path to reach the point. <br/>Once set to false, the robot won't replan path once obstacle occurs.</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction moveTo(
+    const std::vector&lt;rpos::core::Location&gt;&amp; locations,
+    const features::motion_planner::MoveOptions&amp; options,
+    float yaw = 0
+);
+</code></pre>
+
+<p>Requires the robot to move to a set of key points (milestone) specified by the parameters and turn to a specified heading. <br/>
+The robot will try its best to reach each points specified. In case of obstacles occurs, the robot will avoid hitting them by planning a valid  path.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>locations</td>
+<td><code>const std::vector&lt;rpos::core::Location&gt;&amp;</code></td>
+<td>Points collection that the robot should reach</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>features::motion_planner::MoveOptions&amp;</code></td>
+<td>Motion Options</td>
+</tr>
+<tr>
+<td>yaw</td>
+<td><code>float</code></td>
+<td>The heading the robot should finally turn to once all the key points have been reached.</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction moveTo(
+    const core::Location&amp; location,
+    const features::motion_planner::MoveOptions&amp; options,
+    float yaw = 0
+);
+</code></pre>
+
+<p>Requires the robot to move to a key point (milestone) specified by the parameters and turn to a specified heading in the end of the action. <br/>
+The robot will try its best to reach the point specified. In case of obstacles occurs, the robot will avoid hitting them by planning a valid path.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>location</td>
+<td><code>const core::Location&amp;</code></td>
+<td>Point that the robot should reach</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>features::motion_planner::MoveOptions&amp;</code></td>
+<td>Motion Options</td>
+</tr>
+<tr>
+<td>yaw</td>
+<td><code>float</code></td>
+<td>The heading the robot should finally turn to once all the key points have been reached.</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction moveBy(const core::Direction&amp; direction);
+</code></pre>
+
+<p>Make the robot move along with the specified direction. No obstle avoidance or path planning will be performed.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>direction</td>
+<td><code>const core::Direction&amp;</code></td>
+<td>The direction to move towards</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">rpos::core::ACTION_DIRECTION actionDirection = rpos::core::ACTION_DIRECTION::FORWARD;
+rpos::core::Direction direction(actionDirection);
+rpos::actions::MoveAction moveBy = platform.moveBy(direction);
+</code></pre>
+
+<pre><code class="cpp">actions::MoveAction moveBy(
+    const core::Direction&amp; direction,
+    const features::motion_planner::MoveOptions&amp; options
+);
+</code></pre>
+
+<p>Make the robot move along with the specified direction. </p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>direction</td>
+<td><code>const core::Direction&amp;</code></td>
+<td>The direction to move towards</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>features::motion_planner::MoveOptions&amp;</code></td>
+<td>Unsupported yet</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction moveBy(
+    float theta,
+    const features::motion_planner::MoveOptions&amp; options
+);
+</code></pre>
+
+<p>Make the robot move with a turning angle <code>theta</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>theta</td>
+<td><code>float</code></td>
+<td>The turning angle</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>features::motion_planner::MoveOptions&amp;</code></td>
+<td>Unsupported yet</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction rotateTo(const core::Rotation&amp; orientation);
+</code></pre>
+
+<p>Make the robot turn to the specified heading.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>orientation</td>
+<td><code>const core::Rotation&amp;</code></td>
+<td>Required heading</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction rotateTo(
+    const core::Rotation&amp; orientation,
+    const features::motion_planner::MoveOptions&amp; options
+);
+</code></pre>
+
+<p>Make the robot turn to the specified heading.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>orientation</td>
+<td><code>const core::Rotation&amp;</code></td>
+<td>Required heading</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>features::motions_planner::MoveOptions&amp;</code></td>
+<td>Unsupported yet</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction rotate(const core::Rotation&amp; rotation);
+</code></pre>
+
+<p>Make the robot turn by the specified angle.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>orientation</td>
+<td><code>const core::Rotation&amp;</code></td>
+<td>Required turning angle</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction rotate(
+    const core::Rotation&amp; rotation,
+    const features::motion_planner::MoveOptions&amp; options
+);
+</code></pre>
+
+<p>Make the robot turn by the specified angle.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>orientation</td>
+<td><code>const core::Rotation&amp;</code></td>
+<td>Required turning angle</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>features::motions_planner::MoveOptions&amp;</code></td>
+<td>Unsupported yet</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the navigation task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction recoverLocalization(
+    const core::RectangleF&amp; area,
+    const features::motion_planner::RecoverLocalizationOptions&amp; options=features::motion_planner::RecoverLocalizationOptions()
+);
+</code></pre>
+
+<p>Require the robot to perform self relocalization to recover it post on the map. The robot will move.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>area</td>
+<td><code>const core::Rectangle&amp;</code></td>
+<td>The search area for relocalization</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>features::motion_planner::RecoverLocalizationOptions&amp;</code></td>
+<td>Extra options to relocalization</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the relocalization task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">actions::MoveAction getCurrentAction();
+</code></pre>
+
+<p>Retrieve the current action of the robot. If the Action::isEmpty() of the returned object is false, there is no action working at all.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to current navigation or relocalization task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::motion_planner::Path searchPath(const core::Location&amp; location);
+</code></pre>
+
+<p>Require the SLAMWARE system to find a path to the destination specified by the parameter. The path found will be returned.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>location</td>
+<td><code>const core::Location&amp;</code></td>
+<td>Goal</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>features::motion_planner::Path</code></td>
+<td>Searched path</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::motion_planner::Path getRobotTrack(int count);
+</code></pre>
+
+<p>Fetch the history track of the robot (unsupported yet)</p>
+<pre><code class="cpp">actions::SweepMoveAction startSweep();
+</code></pre>
+
+<p>Start sweep (unsupported yet)</p>
+<pre><code class="cpp">actions::SweepMoveAction sweepSpot(const core::Location&amp; location);
+</code></pre>
+
+<p>Start around a specific location (unsupported yet)</p>
+<pre><code class="cpp">actions::MoveAction goHome();
+</code></pre>
+
+<p>Require the SLAMWARE system to navigate to and dock to charge station.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>actions::MoveAction</code></td>
+<td>A <code>MoveAction</code> object refer to the go home task</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">float getSweepArea();
+</code></pre>
+
+<p>Get swept area (unsupported yet)</p>
+<pre><code class="cpp">actions::SweepMoveAction startRegionSweep(
+    const std::vector&lt;size_t&gt;&amp; ids,
+    const std::vector&lt;size_t&gt;&amp; numbers
+);
+</code></pre>
+
+<p>Start area sweep (unsupported yet)</p>
+<pre><code class="cpp">void insertRegion(const features::Region&amp; region);
+</code></pre>
+
+<p>Insert region (unsupported yet)</p>
+<pre><code class="cpp">void insertRegions(const std::vector&lt;features::Region&gt;&amp; regions);
+</code></pre>
+
+<p>Insert a set of region (unsupported yet)</p>
+<pre><code class="cpp">void removeRegion(size_t id);
+</code></pre>
+
+<p>Remove specific region (unsupported yet)</p>
+<pre><code class="cpp">void removeRegions(const std::vector&lt;size_t&gt;&amp; ids);
+</code></pre>
+
+<p>Remove a set of regions (unsupported yet)</p>
+<pre><code class="cpp">void updateRegion(const rpos::features::Region&amp; region);
+</code></pre>
+
+<p>Update a region (unsupported yet)</p>
+<pre><code class="cpp">void updateRegions(const std::vector&lt;rpos::features::Region&gt;&amp; regions);
+</code></pre>
+
+<p>Batch update a set of regions (unsupported yet)</p>
+<pre><code class="cpp">std::vector&lt;features::Region&gt; getRegions();
+</code></pre>
+
+<p>Get regions (unsupported yet)</p>
+<pre><code class="cpp">std::vector&lt;rpos::features::Region&gt; getSweepingRegions();
+</code></pre>
+
+<p>Get sweeping regions (unsupported yet)</p>
+<pre><code class="cpp">rpos::actions::SweepMoveAction startFollowPathSweep(
+    const rpos::features::motion_planner::Path&amp; path
+);
+</code></pre>
+
+<p>Start path-following sweep action (unsupported yet)</p>
+<pre><code class="cpp">rpos::actions::SweepMoveAction startFollowPathSweep(
+    const std::vector&lt;std::vector&lt;rpos::core::Location&gt;&gt;&amp; paths
+);
+</code></pre>
+
+<p>Start path-following sweep action (unsupported yet)</p>
+<pre><code class="cpp">rpos::features::motion_planner::Path getPaintedSweepPath();
+</code></pre>
+
+<p>Get painted sweep path (unsupported yet)</p>
+<pre><code class="cpp">std::vector&lt;rpos::features::motion_planner::Path&gt; getPaintedSweepPaths();
+</code></pre>
+
+<p>Get painted sweep paths (unsupported yet)</p>
+<h4 id="system-resource-methods">System Resource Methods</h4>
+<pre><code class="cpp">int getBatteryPercentage();
+</code></pre>
+
+<p>Get remaining battery in percentage. (56 for 56%)</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>int</code></td>
+<td>Remaining battery in percentage</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool getBatteryIsCharging();
+</code></pre>
+
+<p>Get if the battery is charging</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for charging, <code>false</code> for not charging</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool getDCIsConnected();
+</code></pre>
+
+<p>Get if the power outlet is connected to the robot</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for power outlet connected, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::system_resource::PowerStatus getPowerStatus();
+</code></pre>
+
+<p>Get composed power status. For details please refer to <a href="../power_status/index.html">rpos::features::system_resource::PowerStatus</a></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>features::system_resource::PowerStatus</code></td>
+<td>Power status</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void wakeUp();
+</code></pre>
+
+<p>Wake up the robot from hibernation.</p>
+<pre><code class="cpp">int getBoardTemperature();
+</code></pre>
+
+<p>Get the temperature of the mother board, unit: 0.1℃.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>int</code></td>
+<td>Temperature of the mother board, unit: 0.1℃（452 for 45.2℃)</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">std::string getSDPVersion();
+</code></pre>
+
+<p>Get the software version of SLAMWARE system.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>std::string</code></td>
+<td>The software version of SLAMWARE system</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">std::string getSDKVersion();
+</code></pre>
+
+<p>Get the version of the SDK</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>std::string</code></td>
+<td>The version of the SDK</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::system_resource::LaserScan getLaserScan();
+</code></pre>
+
+<p>Get raw scan data. For details, please refer to <a href="../laser_scan/index.html">rpos::features::system_resource::LaserScan</a></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>features::system_resource::LaserScan</code></td>
+<td>The raw LIDAR scan</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool restartModule(features::system_resource::RestartMode mode = features::system_resource::RestartModeSoft);
+</code></pre>
+
+<p>Restart the SLAMWARE system in specified mode</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mode</td>
+<td><code>features::system_resource::RestartMode</code></td>
+<td>Restart mode</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for successful restart requests, <code>false</code> for invalid request or status</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool setSystemParameter(const std::string&amp; param, const std::string&amp; value);
+</code></pre>
+
+<p>Adjust system parameter on the fly.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>param</td>
+<td><code>const std::string&amp;</code></td>
+<td>The key to the system parameter, see following table for details</td>
+</tr>
+<tr>
+<td>value</td>
+<td><code>const std::string&amp;</code></td>
+<td>The new value to this parameter</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise `false</td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">Bool bRet = platform.setSystemParameter(SYSPARAM_ROBOT_SPEED, SYSVAL_ROBOT_SPEED_HIGH);
+</code></pre>
+
+<pre><code class="cpp">std::string getSystemParameter(const std::string&amp; param);
+</code></pre>
+
+<p>Get current value of system parameter. Please refer to <code>setSystemParameter</code> for available values to <code>param</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>param</td>
+<td><code>const std::string&amp;</code></td>
+<td>The key to the system parameter, see following table for details</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>std::string</code></td>
+<td>Current value of the parameter</td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">std::string robotSpeed = platform.getSystemParameter(SYSPARAM_ROBOT_SPEED);
+</code></pre>
+
+<pre><code class="cpp">bool updateBinaryConfig(const Json::Value&amp; jsnCfg);
+</code></pre>
+
+<p>Upload binary config</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>jsnCfg</td>
+<td><code>const Json::Value&amp;</code></td>
+<td>The new binary config to upload</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool shutdownSlamcore(const rpos::core::SlamcoreShutdownParam&amp; shutdownArg);
+</code></pre>
+
+<p>Shutdown SLAMWARE system</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shutdownArg</td>
+<td><code>const rpos::core::SlamcoreShutdownParam&amp;</code></td>
+<td>Fields of this struct: <code>restartTimeIntervalMinute</code> for time interval to restart; <code>shutdownTimeIntervalMinute</code> for time interval to shutdown; please notice, restart time should be greater than shutdown time, or an <code>OperationFailException</code> will be thrown.</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::system_resource::DeviceInfo getDeviceInfo();
+</code></pre>
+
+<p>Get device info, for details please refer to <a href="../device_info/index.html">rpos::features::system_resource::DeviceInfo</a></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>features::system_resource::DeviceInfo</code></td>
+<td>Device information</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::system_resource::BaseHealthInfo getRobotHealth();
+</code></pre>
+
+<p>Get robot health infomation, for details please refer to <a href="../base_healthinfo/index.html">rpos::features::system_resource::BaseHealthInfo</a></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>features::system_resource::BaseHealthInfo</code></td>
+<td>Robot health info</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void clearRobotHealth(int errorCode);
+</code></pre>
+
+<p>Clear specific health error code.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>errorCode</td>
+<td><code>int</code></td>
+<td>The error code to clear</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool configurateNetwork(
+    features::system_resource::NetworkMode mode,
+    const std::map&lt;std::string, std::string&gt;&amp; options
+);
+</code></pre>
+
+<p>Configure robot network mode</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mode</td>
+<td><code>features::system_resource::NetworkMode</code></td>
+<td>Network mode</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>const std::map&lt;std::string, std::string&gt;&amp;</code></td>
+<td>Network mode options</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise false</td>
+</tr>
+</tbody>
+</table>
+<p>Parameters</p>
+<table>
+<thead>
+<tr>
+<th>Network Modes</th>
+<th>ssid</th>
+<th>password</th>
+<th>channel</th>
+<th>ip</th>
+<th>dns</th>
+<th>gateway</th>
+<th>mask</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NetworkModeAp</code></td>
+<td>Optional</td>
+<td>Optional</td>
+<td>Optional</td>
+<td>Optional</td>
+<td>Optional</td>
+<td>Optional</td>
+<td>Optional</td>
+</tr>
+<tr>
+<td><code>NetworkModeStation</code></td>
+<td>Required</td>
+<td>Optional</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td><code>NetworkModeWifiDisabled</code></td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td><code>NetworkModeDHCPDisabled</code></td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td><code>NetworkModeDHCPEnabled</code></td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Only listed modes are supported yet, <code>ssid</code>, <code>password</code>, <code>channel</code>, and other fields may be optional or required according to selected network mode (-- for N/A)</li>
+<li><code>NetworkModeWifiDisabled</code> will disable the WiFi function</li>
+</ol>
+<p>Example</p>
+<pre><code class="cpp">std::map&lt;std::string, std::string&gt; options;
+options[&quot;ssid&quot;] = &quot;Slamtec&quot;;
+options[&quot;password&quot;] = &quot;slamtect&quot;;
+Bool bRet = platform.configureNetwork(rpos::features::system_resource::NetworkMode::NetworkModeStation,options);
+</code></pre>
+
+<pre><code class="cpp">std::map&lt;std::string, std::string&gt; getNetworkStatus();
+</code></pre>
+
+<p>Get current wireless configuration</p>
+<p>Notes: currently only <code>mode</code>, <code>ssid</code>, and <code>ip</code> are returned</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>std::map&lt;std::string, std::string&gt;</code></td>
+<td>Network configuration</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">features::system_resource::HeartBeatToken startHeartBeat(int heartBeatTimeoutInSeconds);
+</code></pre>
+
+<p>Start heart beat. After first start, the client app should invoke <code>refreshHeartBeat</code> method periodically to tell it's working properly. If SLAMWARE doesn't receive the token in preset timeout, it will judge client application's malfunctioning and abort current action.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>heartBeatTimeoutInSeconds</td>
+<td><code>int</code></td>
+<td>Heartbeat timeout in seconds</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>features::system_resource::HeartBeatToken</code></td>
+<td>Heart beat token</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void refreshHeartBeat(features::system_resource::HeartBeatToken token);
+</code></pre>
+
+<p>Refresh heart beat. Only one or no token is active. If <code>startHeartBeat</code> is invoked twice, the first token will be invalidated, and only later timeout and token are valid.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>token</td>
+<td><code>features::system_resource::HeartBeatToken</code></td>
+<td>Token returned by <code>startHeartBeat(int)</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void stopHeartBeat(features::system_resource::HeartBeatToken token);
+</code></pre>
+
+<p>Stop heart beat function.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>token</td>
+<td><code>features::system_resource::HeartBeatToken</code></td>
+<td>Token returned by <code>startHeartBeat(int)</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void voiceRespond();
+</code></pre>
+
+<p>Voice respond to indicate robot's position. (unsupported yet)</p>
+<pre><code class="cpp">void startFirmwareUpgrade(const std::string&amp; filename);
+</code></pre>
+
+<p>Start firmware upgrade with specific firmware file.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>filename</td>
+<td><code>const std::string&amp;</code></td>
+<td>The path to the firmware file</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void publishDepthCamFrame(
+    int sensorId,
+    const rpos::message::depth_camera::DepthCameraFrame&amp; frame
+);
+</code></pre>
+
+<p>Send depth camera frame to the SLAMWARE system</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sensorId</td>
+<td><code>int</code></td>
+<td>Sensor ID, should be the same with configuration</td>
+</tr>
+<tr>
+<td>frame</td>
+<td><code>const rpos::message::depth_camera::DepthCameraFrame&amp;</code></td>
+<td>Depth camera frame</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">std::vector&lt;features::system_resource::OperationAuditLog&gt; getOperationAuditLogs();
+</code></pre>
+
+<p>Get operation audit log from SLAMWARE system</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>std::vector&lt;features::system_resource::OperationAuditLog&gt;</code></td>
+<td>Audit log</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">int sendAndRecvUserDefinedCBUSMessage(
+    const void * payload,
+    const size_t payloadsize,
+    void * recvBuffer,
+    size_t &amp; recvDataSize
+);
+</code></pre>
+
+<p>Send customized control bus command to the chasis and receives response</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>payload</td>
+<td><code>const void*</code></td>
+<td>Pointer to the payload to send</td>
+</tr>
+<tr>
+<td>payloadsize</td>
+<td><code>const size_t</code></td>
+<td>Size of the payload to send</td>
+</tr>
+<tr>
+<td>recvBuffer</td>
+<td><code>void*</code></td>
+<td>Pointer to the receive buffer</td>
+</tr>
+<tr>
+<td>recvDataSize</td>
+<td><code>size_t&amp;</code></td>
+<td>Size of the receive buffer</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>int</code></td>
+<td>Return result of the command operation</td>
+</tr>
+</tbody>
+</table>
+<h4 id="lidar-tweaking-methods-only-applies-to-slamware">LIDAR Tweaking Methods (only applies to Slamware)</h4>
+<pre><code class="cpp">rpos::features::system_resource::LidarAutoTweakRequestResult beginLidarAutoTweak();
+</code></pre>
+
+<p>Begin LIDAR auto tweaking process</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>rpos::features::system_resource::LidarAutoTweakRequestResult</code></td>
+<td>Return value</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">rpos::features::system_resource::LidarAutoTweakStatus getLidarAutoTweakStatus();
+</code></pre>
+
+<p>Fetch LIDAR auto tweaking status</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>rpos::features::system_resource::LidarAutoTweakStatus</code></td>
+<td>Return value</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool acceptLidarTweakResult();
+</code></pre>
+
+<p>Accept LIDAR auto tweaking result, and save to LIDAR</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void resetLidarTweakResult();
+</code></pre>
+
+<p>Reject LIDAR auto tweaking result, and revert to original settings</p>
+<pre><code class="cpp">void cancelLidarAutoTweak();
+</code></pre>
+
+<p>Cancel current auto tweaking process</p>
+<h4 id="sensor-methods">Sensor Methods</h4>
+<pre><code class="cpp">bool getSensors(std::vector&lt;features::impact_sensor::ImpactSensorInfo&gt;&amp; sensors);
+</code></pre>
+
+<p>Get sensor list</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sensors</td>
+<td><code>std::vector&lt;features::impact_sensor::ImpactSensorInfo&amp;&gt;</code></td>
+<td>Sensor information</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool getSensorValues(
+    std::map&lt;
+        features::impact_sensor::impact_sensor_id_t,
+        features::impact_sensor::ImpactSensorValue
+    &gt;&amp; values
+);
+</code></pre>
+
+<p>Fetch all sensor's values</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>values</td>
+<td><code>std::map&lt;features::impact_sensor::impact_sensor_id_t, features::impact_sensor::ImpactSensorValue&gt;&amp;</code></td>
+<td>Sensor value map</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td>bool</td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<p>Notes: <code>features::impact_sensor::ImpactSensorValue</code>'s struct is as follows:</p>
+<pre><code class="cpp">struct ImpactSensorValue {
+    impact_sensor_timestamp_t time;
+    float value;
+};
+</code></pre>
+
+<pre><code class="cpp">bool getSensorValues(
+    const std::vector&lt;features::impact_sensor::impact_sensor_id_t&gt;&amp; sensorIds,
+    std::vector&lt;features::impact_sensor::ImpactSensorValue&gt;&amp; values
+);
+</code></pre>
+
+<p>Fetch specified sensors' value</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sensorIds</td>
+<td><code>const std::vector&lt;features::impact_sensor::impact_sensor_id_t&gt;&amp;</code></td>
+<td>IDs of the sensors to fetch</td>
+</tr>
+<tr>
+<td>values</td>
+<td><code>std::vector&lt;features::impact_sensor::ImpactSensorValue&gt;&amp;</code></td>
+<td>Sensor values</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td>bool</td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool getSensorValue(
+    features::impact_sensor::impact_sensor_id_t sensorId,
+    features::impact_sensor::ImpactSensorValue&amp; value
+);
+</code></pre>
+
+<p>Fetch specific sensor's value</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sensorId</td>
+<td><code>features::impact_sensor::impact_sensor_id_t</code></td>
+<td>ID of the sensor to fetch</td>
+</tr>
+<tr>
+<td>values</td>
+<td><code>features::impact_sensor::ImpactSensorValue&amp;</code></td>
+<td>Sensor value</td>
+</tr>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="firmware-operations">Firmware Operations</h4>
+<pre><code class="cpp">detail::objects::UpdateInfo getUpdateInfo();
+</code></pre>
+
+<p>Get firmware update info</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>detail::objects::UpdateInfo</code></td>
+<td>Firmware update info</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">bool startFirmwareUpdate();
+</code></pre>
+
+<p>Request a firmware update</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>bool</code></td>
+<td><code>true</code> for success, otherwise <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">detail::objects::UpdateProgress getFirmwareUpdateProgress();
+</code></pre>
+
+<p>Get firmware update progress</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>detail::objects::UpdateProgress</code></td>
+<td>Firmware update progress</td>
+</tr>
+</tbody>
+</table>
+<h4 id="composite-map-operations">Composite Map Operations</h4>
+<pre><code class="cpp">robot_platforms::objects::CompositeMap getCompositeMap();
+</code></pre>
+
+<p>Fetch composite map from SLAMWARE system</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>robot_platforms::objects::CompositeMap</code></td>
+<td>Fetched map</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">void setCompositeMap(const robot_platforms::objects::CompositeMap&amp; map, const core::Pose&amp; pose);
+</code></pre>
+
+<p>Replace robot maps and pose with composite map and pose.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>map</td>
+<td><code>const robot_platforms::objects::CompositeMap&amp;</code></td>
+<td>The composite map</td>
+</tr>
+<tr>
+<td>pose</td>
+<td><code>const core::Pose&amp;</code></td>
+<td>The pose of the robot</td>
+</tr>
+</tbody>
+</table>
+<p>Example</p>
+<pre><code class="cpp">auto pose = platform.getPose();
+
+rpos::robot_platforms::objects::Metadata metadata;
+std::vector&lt; boost::shared_ptr&lt;rpos::robot_platforms::objects::MapLayer&gt; &gt; maps;
+
+auto map_layer_v_walls = boost::make_shared&lt;rpos::robot_platforms::objects::LineMapLayer&gt;();
+maps.push_back(map_layer_v_walls);
+map_layer_v_walls-&gt;setUsage(&quot;virtual_walls&quot;);
+map_layer_v_walls-&gt;setType(rpos::robot_platforms::objects::LineMapLayer::Type);
+rpos::robot_platforms::objects::Line line(Point(0, 0), Point(10, 10));
+line.name = &quot;1&quot;;
+map_layer_v_walls-&gt;lines()[line.name] = line;
+
+rpos::robot_platforms::objects::CompositeMap compositeMap(metadata, maps);
+platform. setCompositeMap (compositeMap, pose);
+</code></pre>
+
+<h4 id="statistics-methods-only-applies-to-slamware">Statistics Methods (only applies to Slamware)</h4>
+<pre><code class="cpp">int getSweepTimeMs();
+</code></pre>
+
+<p>Get sweep time (unsupported yet)</p>
+<pre><code class="cpp">double getOdometry();
+</code></pre>
+
+<p>Get odometry value</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>double</code></td>
+<td>In meters</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="cpp">double getSystemRunningTime();
+</code></pre>
+
+<p>Get system run time (in seconds)</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Data type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Return Value</td>
+<td><code>double</code></td>
+<td>System runtime in seconds</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../laser_scan/index.html" class="btn btn-neutral" title="LaserScan"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../laser_scan/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
