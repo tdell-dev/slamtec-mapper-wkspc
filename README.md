@@ -1,10 +1,10 @@
 # Slamtec M1M1 Lidar Mapper Workspace
 
-###Overview
+### Overview
 This repository is to intended for use on a dedicated Ubuntu build server. The host Ubuntu server can leverage this repo to cross-compile C++ programs which rely on the Slamtec libraries and can be run on a Raspberry Pi. This repo has only been tested on Ubuntu 16.04 with GCC-4.8, but the Slamtec example build has worked successfully.
 
 ---
-###Device Details
+### Device Details
 
 The default M1M1 Slamtec Lidar IP address is 192.168.11.1 and the default port is 1445.
 
