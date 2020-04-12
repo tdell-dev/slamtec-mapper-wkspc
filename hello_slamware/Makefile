@@ -16,7 +16,7 @@
 # *
 # */
 #
-HOME_TREE := ../lib/slamware_gcc_4.8/slamware_sdk_linux-armv7hf-gcc4.8/
+HOME_TREE := ../slamware/slamware_sdk_linux-armv7hf-gcc4.8/
 
 MODULE_NAME := $(notdir $(CURDIR))
 

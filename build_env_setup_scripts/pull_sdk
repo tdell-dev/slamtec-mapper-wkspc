@@ -1,12 +1,15 @@
 #!/bin/bash
 
+sudo apt-get install build-essential
+
+sudo apt-get install g++-4.8-arm-linux-gnueabihf
+
 mkdir -p ./dwnlds
+mkdir -p ./slamware
 
 wget http://download.slamtec.com/api/download/slamware-sdk-linux-armv7hf_gcc4.8/2.6.7_rtm.20190929 -O ./dwnlds/slamware_sdk_linux-armv7hf-gcc4.8-2.6.7_rtm.20190929.tar.bz2
 #wget http://download.slamtec.com/api/download/slamware-sdk-linux-armv7hf_gcc4.6/2.6.6_rtm.20190422 -O ./dwnlds/slamware_sdk_linux-armv7hf-gcc4.6-2.6.6_rtm.20190422.tar.bz2
 
-mkdir -p ~/slamware
-
-tar xfv ./dwnlds/*  -C ~/slamware
+tar xfv ./dwnlds/*  -C ./slamware
 
 rm -rf ./dwnlds/
