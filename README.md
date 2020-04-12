@@ -31,5 +31,7 @@ To get started building C++ programs with these repo, run the following steps to
        Executable is generated to ./slamware/slamware_sdk_linux-armv7hf-gcc4.8/linux-armv7hf-release/output/hello_slamware
 
   When run on the raspberry pi target, hello_slamware should successfully output the following:
+    `
     $ ./hello_slamware
     Base version: 2.0.0_dev-sdp-20161008
+    `
