@@ -1,0 +1,11 @@
+#!/bin/bash
+# Write the following into /etc/dhcpcd.conf
+# interface eth0
+#   nogateway
+
+echo "Saving previous /etc/dhcpcd.conf to /etc/dhcpcd.conf.bak"
+sudo cp /etc/dhcpcd.conf /etc/dhcpcd.conf.bak
+
+echo "Setting Wifi to default internet when both wlan0 and eth0 are connected"
+sudo echo "interface eth0" >> /etc/dhcpcd.conf
+sudo echo "  nogateway" >> /etc/dhcpcd.conf

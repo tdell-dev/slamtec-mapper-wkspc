@@ -3,10 +3,10 @@
 mkdir -p ./dwnlds
 
 wget http://download.slamtec.com/api/download/slamware-sdk-linux-armv7hf_gcc4.8/2.6.7_rtm.20190929 -O ./dwnlds/slamware_sdk_linux-armv7hf-gcc4.8-2.6.7_rtm.20190929.tar.bz2
-wget http://download.slamtec.com/api/download/slamware-sdk-linux-armv7hf_gcc4.6/2.6.6_rtm.20190422 -O ./dwnlds/slamware_sdk_linux-armv7hf-gcc4.6-2.6.6_rtm.20190422.tar.bz2
+#wget http://download.slamtec.com/api/download/slamware-sdk-linux-armv7hf_gcc4.6/2.6.6_rtm.20190422 -O ./dwnlds/slamware_sdk_linux-armv7hf-gcc4.6-2.6.6_rtm.20190422.tar.bz2
 
-mkdir -p ./lib/slamware_gcc_4.8
-mkdir -p ./lib/slamware_gcc_4.6
+mkdir -p ~/slamware
 
-tar xf ./dwnlds/slamware_sdk_linux-armv7hf-gcc4.8-2.6.7_rtm.20190929.tar.bz2  -C ./lib/slamware_gcc_4.8
-tar xf ./dwnlds/slamware_sdk_linux-armv7hf-gcc4.6-2.6.6_rtm.20190422.tar.bz2  -C ./lib/slamware_gcc_4.6
+tar xfv ./dwnlds/*  -C ~/slamware
+
+rm -rf ./dwnlds/
